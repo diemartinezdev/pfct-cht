@@ -21,8 +21,8 @@ input {
 .App {
   width: 100%;
   min-height: 100vh;
-  background-color: #bdc7db;
-  color: #4c768d;
+  background-color: #E1ECC8;
+  color: #C4D7B2;
 }
 
 /* navbar */
@@ -31,10 +31,21 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #8dc5b9;
+  background-color: #A0C49D;
   color: #242443;
   height: 7vh;
   width: 100vw;
+}
+
+#git {
+  color: white;
+  display: flex;
+  justify-content:space-around;
+}
+
+#git p {
+  display: flex;
+padding-top: 14px;
 }
 
 .sign-in {

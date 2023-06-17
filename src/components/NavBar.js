@@ -21,11 +21,13 @@ const NavBar = () => {
   return (
     <nav className="nav-bar">
       <h1>Perfect Chat</h1>
-      <h3>diemartinezdev</h3>
+      <div id="git">
+      <p>diemartinezdev</p>
       <a href="https://github.com/diemartinezdev">
         <img src={Github} alt="github logo" id="github" />
-      </a>
-      {user ? (
+        </a>
+      </div>
+            {user ? (
         <button onClick={signOut} className="sign-out" type="button">
           Sign Out
         </button>
@@ -39,6 +41,7 @@ const NavBar = () => {
           />
         </button>
       )}
+      
     </nav>
   );
 };
