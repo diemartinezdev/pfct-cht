@@ -9,6 +9,10 @@ The project was made with React and Firebase. The app will allow the user to log
 
 <br>
 
+<img src="https://raw.githubusercontent.com/diemartinezdev/pfct-cht/main/src/img/Screenshot%202023-06-18%20120158.png" alt="screenshot">
+
+<br>
+
 
 ### `npm start`
 
